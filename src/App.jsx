@@ -2,22 +2,24 @@
 // import './App.css'
 
 import React from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
+import { BrowserRouter, Route,  Routes } from 'react-router-dom'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Task from './pages/Task'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
 
   return (
-    <Router>
+    <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/task" element={<Task />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 }
 

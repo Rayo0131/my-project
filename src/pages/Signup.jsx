@@ -22,13 +22,13 @@ const Register = () => {
     }
 
   return (
-    <main>
-      <h2>Register</h2>
+    <main className='log'>
+      <h2>Sign Up</h2>
       <form onSubmit={handleRegister}>
         <input type="text" placeholder='Username' value={username} onChange={(e) => setUsername(e.target.value)} />
         <input type="email" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
         <input type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
-        <button type="submit">Register</button>
+        <button type="submit">Sign Up</button>
       </form>
     </main>
   )

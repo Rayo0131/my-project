@@ -22,7 +22,7 @@ const Login = () => {
     }
 
   return (
-    <main>
+    <main className='log'>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <input type="text" placeholder='Username' value={username} onChange={(e) => setUsername(e.target.value)} />

@@ -4,7 +4,7 @@
 import React from 'react'
 import { BrowserRouter, Route,  Routes } from 'react-router-dom'
 import Login from './pages/Login'
-import Register from './pages/Register'
+import Register from './pages/Signup'
 import Task from './pages/Task'
 import Navbar from './components/Navbar'
 

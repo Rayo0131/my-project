@@ -12,9 +12,9 @@ const Register = () => {
       e.preventDefault();
       try {
        await axios.post('http://127.0.0.1:8000/api/register/', 
-          {username, password}); 
+          {username, email, password}); 
         alert('Registration successful! Please log in.');
-        navigate('/');
+        navigate('/login');
 
       } catch (error) {
         alert('Error occurred during registration.');

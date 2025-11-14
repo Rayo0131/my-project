@@ -7,7 +7,7 @@ const Navbar = () => {
     <h3>Task Manager</h3>
     <div className='navbar'>
         <Link to="/" className='text-white mx-2'>Login</Link>
-        <Link to="/signup" className='text-white mx-2'>Sign Up</Link>
+        <Link to="/register" className='text-white mx-2'>Sign Up</Link>
         <Link to="/task" className='text-white mx-2'>Task</Link>
     </div>
 </nav>  )

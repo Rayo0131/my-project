@@ -74,3 +74,32 @@ body {
   /* background: #6d44b8; */
     background: #7e57c2;
 }
+.task-field {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-fieldinput {
+  padding: 8px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-field button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: #7e57c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-field button:hover {
+  background: #6d44b8;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
